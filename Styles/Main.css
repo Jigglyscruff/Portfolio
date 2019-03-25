@@ -1,6 +1,6 @@
 
-}body {
-
+body {
+background-color: white;
 }
 header {
 
@@ -27,3 +27,24 @@ p{
 .resume{
   background-color: rgba(0, 0, 255, 0.3);
 }
+#language {
+  text-align: center;
+  padding-top: 25px;
+
+}
+#htmllogo:scroll {
+  align-content: center;
+  animation-name: htmllogo;
+  animation-duration: 4s;
+  animation-direction: normal;
+
+}@keyframes htmllogo {
+            0% {
+               opacity: 0;
+               transform: translateX(-20px);
+            }
+            100% {
+               opacity: 1;
+               transform: translateX(0);
+            }
+         }
