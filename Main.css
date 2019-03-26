@@ -1,3 +1,4 @@
+
 body {
 
 }
@@ -25,4 +26,14 @@ p{
 }
 .resume{
   background-color: rgba(0, 0, 255, 0.3);
+}
+.htmllogo {
+  display: flex;
+  justify-content: center;
+}
+#csslogo {
+
+}
+#javascriptlogo {
+
 }
